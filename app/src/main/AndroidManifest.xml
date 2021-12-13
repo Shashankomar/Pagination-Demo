@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme"
         android:fullBackupContent="@xml/backup_descriptor">
 
-        <activity android:name="com.e.paginatorkotlindemo.activity.PaginationActivity">
+        <activity android:name="com.e.paginatorkotlindemo.activity.PaginationActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
